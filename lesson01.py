@@ -34,7 +34,7 @@ if(is_student) :
 else :
   print("bye")
 
-#typecasting
+#typecasting   str()  int()  bool()  float()
 
 name = "dasun"
 age = 22
@@ -45,3 +45,25 @@ print(type(name))
 print(type(age))
 print(type(gpa))
 print(type(is_student))
+
+age = float(age)
+print(age)
+
+gpa = int(gpa)
+print(gpa)
+
+is_student = str(is_student)
+print(is_student)
+print(type(is_student))
+
+age = bool(age)
+print(age)
+
+print(bool(gpa))
+print(bool(name))
+print(bool(is_student))
+print(bool(gpa))
+
+input = "22"
+print(type(input))
+print(type(input))
