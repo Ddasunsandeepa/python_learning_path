@@ -74,7 +74,7 @@ print(x == y)
 
 if x == y :
   print("x is equal to y")
-else :  
+else :
   print("x is not equal to y")
 
 print("hello")
