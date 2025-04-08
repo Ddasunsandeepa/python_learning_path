@@ -64,9 +64,9 @@ print(bool(name))
 print(bool(is_student))
 print(bool(gpa))
 
-input = "22"
-print(type(input))
-print(type(input))
+input1 = "22"
+print(type(input1))
+print(type(input1))
 
 x =1
 y = 1
@@ -82,3 +82,23 @@ x=20
 print(x)
 x = 20
 print(x)
+
+gpa = 3.8
+gpa = str(gpa)
+print(gpa)
+print(type(gpa))
+print(f"my gpa is {gpa}")
+
+age = 0
+age = bool(age)
+print(age)
+print(type(age))
+
+das = input("enter your name : ")
+print(f"hello {das}")
+
+age = input("enter your age : ")
+age = int(age)
+age +=1
+print(f"your age is {age}")
+print(type(age))
