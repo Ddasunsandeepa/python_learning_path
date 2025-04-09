@@ -102,3 +102,11 @@ age = int(age)
 age +=1
 print(f"your age is {age}")
 print(type(age))
+
+#are of a rectangle
+
+length = float(input("enter the length of the rectangle : "))
+width = float(input("enter the width of the rectangle : "))
+
+area = int(length*width)
+print(f"the area of the rectangle is {area}cm²")
