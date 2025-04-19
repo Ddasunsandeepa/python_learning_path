@@ -21,6 +21,9 @@ print(f"i buy {quantity} items.")
 #float
 
 price = 3.25
+age= 25
+print(f"your age is {age} years old")
+print(f"the price of the item is {price}")
 
 print(f"that item cost is ${price}")
 
