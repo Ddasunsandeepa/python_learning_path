@@ -177,3 +177,14 @@ g =12
 
 print(f"hello {v} and {g} and sum is {v+g}")
 print(f"hello {4+3}")
+
+food = input("enter your fav food or q for quite :")
+
+while not food == "q" :
+    if food == "":
+        print("food cannot be empty")
+    else :
+        print(f"your fav food is {food}")
+
+    food = input("enter your fav food or q for quite :")
+print("thank you for using the program")
