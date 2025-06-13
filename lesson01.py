@@ -159,6 +159,10 @@
 # else:
 #     print(f"the result is {round(result, 2)}")
 
+
+s = int(input("enter a number : "))
+print(f"the number is {s}")
+
 name = input("enter your name : ")
 
 if len(name) > 12:
@@ -188,3 +192,6 @@ while not food == "q" :
 
     food = input("enter your fav food or q for quite :")
 print("thank you for using the program")
+
+my_list = [1,2,3,"e"]
+print(my_list)
