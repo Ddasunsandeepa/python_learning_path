@@ -195,3 +195,25 @@ print("thank you for using the program")
 
 my_list = [1,2,3,"e"]
 print(my_list)
+
+
+age = bool(age)
+print(age)
+
+print(bool(gpa))
+print(bool(name))
+print(bool(is_student))
+print(bool(gpa))
+
+input1 = "22"
+print(type(input1))
+print(type(input1))
+
+x =1
+y = 1
+print(x == y)
+
+if x == y :
+  print("x is equal to y")
+else :
+  print("x is not equal to y")
